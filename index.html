@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="weather-container">
+       <h1 id="skycheck"><b>SKY CHECK</b></h1>
+       <input type="text" id="city-input" placeholder="Enter City Name">
+       <button id="check-weather">Check Weather</button>
+       <p id="loading" class="hidden">Loading...</p>
+       <div id="weather-box" class="hidden">
+       <h2 id="city-name">Name</h2>
+       <img id="weatherIcon" src="./cloudy.png" alt="Weather icon">
+       <p id="weather-description">Description</p>
+       <p id="temperature">0°C</p>
+</div>
+
+    </div>
+    
+    <script src="./JS/index.js"></script>
+</body>
+</html>

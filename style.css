@@ -1,0 +1,90 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #e6f0fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#faint{
+  color: grey;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./Images/weather.avif'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+
+.weather-container {
+  text-align: center;
+  background:#d0ebff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px #90caf9;
+  width:400px;
+  
+}
+
+#skycheck{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+    font-size: 300%;
+    color: #0d47a1;
+}
+
+input[type="text"] {
+  background-color: white;
+  margin-left:-10px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #90caf9;
+  margin-bottom: 15px;
+  
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0288d1;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+#weather-box{
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #f4f8fc;
+}
+
+.hidden {
+  display: none;
+}
+
+#weatherIcon {
+  width: 60px;
+   margin: 10px 0;
+}
+
+
+#loading {
+  font-size: 16px;
+  color: #555;
+}
